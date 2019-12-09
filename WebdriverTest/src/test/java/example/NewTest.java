@@ -30,6 +30,7 @@ public class NewTest {
 		  String title = driver.getTitle();				 
 		  Assert.assertTrue(title.contains("Designmate - Learning Through Exploration")); 	
 		  Thread.sleep(10000);
+		 //Pull Reqest
 		  driver.quit();
 		
 	} catch (Exception e) {
